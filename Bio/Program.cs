@@ -7,10 +7,14 @@ namespace Bio
         static void Main(string[] args)
         {
             // Opdracht 1.1
-            string name = "Jasper van Dijk";
-            string address = "Oosterstraat 91";
-            string postalCode = "7531TG";
-            string age = "28";
+            Console.WriteLine("What is your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine("What is your address?");
+            string address = Console.ReadLine();
+            Console.WriteLine("What is your postal code?");
+            string postalCode = Console.ReadLine();
+            Console.WriteLine("How old are you");
+            string age = Console.ReadLine();
 
             Console.WriteLine($"{name} \n{address} \n{postalCode} \n{age}");
 
